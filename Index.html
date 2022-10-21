@@ -1,149 +1,173 @@
 <!DOCTYPE html>
-<!--
-	Rocket Internet by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 
 <html>
+
 <head>
-	<title>this is may first website</title>
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-	<!-- Goggle Font -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-
-	<!-- Font Css -->
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-
-	<!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<!-- Animation Css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<title>my first website</title>
 
 </head>
+
 <body>
+
+				<button onclick="testfunction()"> MENU </button>
+
+    <div id="nav" style="display: none;">
+
+        <ul>
+
+            <li>Home</li>
+
+            <li>new page</li>
+
+            <li>Link</li>
+
+            <li>Contact us</li>
+
+        </ul>
+
+    </div>
+
+    <script>
+
+        function testfunction() {
+
+        var abc = document.getElementById("nav") ;
+
+        if(abc.style.display=="none") {
+
+            abc.style.display="block" ;
+
+        }
+
+        else {
+
+            abc.style.display="none"
+
+        }
+
+        }
+
+    </script>
+
 <header>
+
+			
+
 	<div id="homeFullScreen">
+
 		<div class="header-text">
-			<h1>Hi friends</h1>
+
+						
+
+			<h1 align="center">winterrain</h1>
+
+			
+
 			<div class="vertical-line"></div>
-			<p>
-				This website is for testing purpose
-				<br />
-				INTERDUM VIVAMUS DONCE SED LIBERO.
-			</p>
+
+			
+
+							
+
+			
+
 		</div><!-- End HeaderText -->
+
 	</div><!-- End homeFullScreen -->
+
 </header><!-- End Header -->
 
 <!-- Feature -->
 
 <section class="feature">
+
 	<div class="container">
+
 		<div class="row">
+
 			<div class="col-md-6 col-sm-6">
+
 				<div class="feature-box">
-					<h1>Lorem Ipsum</h1>
-					<p>Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-				</div>
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="images/1.png">
-			</div><!-- End col-md-6 -->
 
-			<div class="clearfix"></div><!-- End clearfix -->
+					
 
-			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="images/1.png">
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>Lorem Ipsum</h1>
-					<p>Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 	the industry's standard dummy text ever since the 1500s,</p>
-				</div>
-			</div><!-- End col-md-6 -->
-		</div>
-	</div>
-</section>
+												</div>
 
-<!-- portfolio -->
+												</div>
 
-<section class="portfolio">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="heading">Portfolio</h1>
-			</div><!-- End col-md-12 -->
+												
 
-			<div class="col-md-4 col-sm-4">
-				<img src="images/p-1.png">
-			</div><!-- End col-md-4 -->
-			<div class="col-md-4 col-sm-4">
-				<img src="images/p-2.png">
-			</div><!-- End col-md-4 -->
-			<div class="col-md-4 col-sm-4 last-img">
-				<img src="images/p-3.png">
-			</div><!-- End col-md-4 -->
+								
 
-			<div class="clearfix"></div><!-- End clearfix -->
+					<h1> HOME </h1>
 
-			<div class="col-md-4 col-sm-4">
-				<img src="images/p-4.png">
-			</div><!-- End col-md-4 -->
-			<div class="col-md-4 col-sm-4">
-				<img src="images/p-5.png">
-			</div><!-- End col-md-4 -->
-			<div class="col-md-4 col-sm-4 last-img">
-				<img src="images/p-6.png">
-			</div><!-- End col-md-4 -->
-		</div><!-- End row -->
-	</div><!-- End container -->
+											
+
+				
+
 </section>
 
 <!-- Call to Action -->
+
 <section class="call-top-action text-center">
+
 	<div class="container">
+
 		<div class="row">
+
 			<div class="col-md-12">
-				<h1>many variations of passages</h1>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
+
+				<h1>fill the form</h1>
+
+				
+
+				<p>
+
 				<br />
-				in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-				<span>LOREM IPSUM</span>
-			</div><!-- End col-md-12 -->
-		</div><!-- End row -->
-	</div><!-- End container -->
+
+				</p>
+
+				<form action="#" method="post">
+
+								Name:<input type="text" name="Name" minlenth="3" maxlenth="15" placeholder="enter your name" required>
+
+			  <br> <br>
+
+			 DOB: <input type="date" name="date"
+
+			   placeholder="enter your birth date">
+
+			   <br> <br>
+
+			  Number:<input type="number"     minlenth="9" maxlenth="10" placeholder="enter your no."required >
+
+			 
+
+							 <br> <br>
+
+							 
+
+							 <button> submit </button>
+
+							
+
+				</form>
+
+			</div>
+
+		</div>
+
+	</div>
+
 </section>
 
-<!-- Footer -->
-<footer>
-	<ul class="in-line">
-		<li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
-		<li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
-		<li><a href="#"><span><i class="fa fa-youtube"></i></span></a></li>
-	</ul>
-	<span class="copyright">&#169; Untitled . All rights reserved. Design By <a href="http://templatestock.co">Templatestock.co</a></span>
-</footer>
 	
 
+<p>This site is only for testing purpose 
 
-
-<!-- Main JS -->
-<script type="text/javascript" src="js/jquery-main.js"></script>
-
-<!-- Bootstrap JS -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-<!-- Animation JS -->
-<script type="text/javascript" src="js/wow.min.js"></script>
-
-<!-- Custom JS -->
-<script type="text/javascript" src="js/custom.js"></script>
-
+</p>
 
 </body>
+
 </html>
