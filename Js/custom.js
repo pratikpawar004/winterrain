@@ -1,7 +1,4 @@
-/*
-	Rocket Internet by TEMPLATE STOCK
-    templatestock.co @templatestock
-*/
+
 
 /* Header Full Screen */
 $(document).ready(function() {
